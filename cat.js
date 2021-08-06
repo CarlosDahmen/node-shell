@@ -1,4 +1,4 @@
-const fs = require('fs')
+const fs = require('fs');
 
 function cat(cmd, fileName) {
   if(cmd === 'cat'){
@@ -6,7 +6,7 @@ function cat(cmd, fileName) {
       if (err) {
         throw err;
         } else {
-          console.log(data)
+          process.stdout.write(data)
           }
     }
   )}

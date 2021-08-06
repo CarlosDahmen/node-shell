@@ -11,7 +11,6 @@ function ls(cmd) {
       }
     });
   }
-
 }
 
 module.exports = ls;
